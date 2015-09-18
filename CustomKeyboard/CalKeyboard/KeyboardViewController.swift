@@ -23,6 +23,7 @@ class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadInterface()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,6 +46,19 @@ class KeyboardViewController: UIInputViewController {
         view.addSubview(keyboardView)
         view.backgroundColor = keyboardView.backgroundColor
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
+
+    }
+    
+    @IBAction func keyPressed(button: UIButton) {
+        let string = button.titleLabel!.text
+        (textDocumentProxy as UIKeyInput).insertText("\(string!)")
+    }
+    @IBAction func backSpacePressed(button: UIButton) {
+        (textDocumentProxy as UIKeyInput).deleteBackward()
+    }
+    
+    @IBAction func returnPressed(button: UIButton) {
+        (textDocumentProxy as UIKeyInput).insertText("\n")
     }
 
 
