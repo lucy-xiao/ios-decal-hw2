@@ -15,6 +15,14 @@
 		3AAA63A41BA9263900E3822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63A21BA9263900E3822E /* LaunchScreen.storyboard */; };
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9CD0CAB51BB3A19700C10FDB /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAAD1BB3A19700C10FDB /* Blue.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CAB61BB3A19700C10FDB /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAAE1BB3A19700C10FDB /* Green.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CAB71BB3A19700C10FDB /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAAF1BB3A19700C10FDB /* Grey.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CAB81BB3A19700C10FDB /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAB01BB3A19700C10FDB /* Orange.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CAB91BB3A19700C10FDB /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAB11BB3A19700C10FDB /* Pink.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CABA1BB3A19700C10FDB /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAB21BB3A19700C10FDB /* Purple.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CABB1BB3A19700C10FDB /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAB31BB3A19700C10FDB /* Red.png */; settings = {ASSET_TAGS = (); }; };
+		9CD0CABC1BB3A19700C10FDB /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0CAB41BB3A19700C10FDB /* Yellow.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		3AAA63B01BA9283500E3822E /* CalKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3AAA63B41BA9283500E3822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD0CAAD1BB3A19700C10FDB /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue.png; path = ../../../../Desktop/Blue.png; sourceTree = "<group>"; };
+		9CD0CAAE1BB3A19700C10FDB /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = ../../../../Desktop/Green.png; sourceTree = "<group>"; };
+		9CD0CAAF1BB3A19700C10FDB /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Grey.png; path = ../../../../Desktop/Grey.png; sourceTree = "<group>"; };
+		9CD0CAB01BB3A19700C10FDB /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Orange.png; path = ../../../../Desktop/Orange.png; sourceTree = "<group>"; };
+		9CD0CAB11BB3A19700C10FDB /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pink.png; path = ../../../../Desktop/Pink.png; sourceTree = "<group>"; };
+		9CD0CAB21BB3A19700C10FDB /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Purple.png; path = ../../../../Desktop/Purple.png; sourceTree = "<group>"; };
+		9CD0CAB31BB3A19700C10FDB /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Red.png; path = ../../../../Desktop/Red.png; sourceTree = "<group>"; };
+		9CD0CAB41BB3A19700C10FDB /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yellow.png; path = ../../../../Desktop/Yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,14 @@
 		3AAA63B11BA9283500E3822E /* CalKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				9CD0CAAD1BB3A19700C10FDB /* Blue.png */,
+				9CD0CAAE1BB3A19700C10FDB /* Green.png */,
+				9CD0CAAF1BB3A19700C10FDB /* Grey.png */,
+				9CD0CAB01BB3A19700C10FDB /* Orange.png */,
+				9CD0CAB11BB3A19700C10FDB /* Pink.png */,
+				9CD0CAB21BB3A19700C10FDB /* Purple.png */,
+				9CD0CAB31BB3A19700C10FDB /* Red.png */,
+				9CD0CAB41BB3A19700C10FDB /* Yellow.png */,
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
@@ -205,6 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
+				9CD0CAB81BB3A19700C10FDB /* Orange.png in Resources */,
+				9CD0CAB61BB3A19700C10FDB /* Green.png in Resources */,
+				9CD0CAB91BB3A19700C10FDB /* Pink.png in Resources */,
+				9CD0CAB71BB3A19700C10FDB /* Grey.png in Resources */,
+				9CD0CABB1BB3A19700C10FDB /* Red.png in Resources */,
+				9CD0CAB51BB3A19700C10FDB /* Blue.png in Resources */,
+				9CD0CABA1BB3A19700C10FDB /* Purple.png in Resources */,
+				9CD0CABC1BB3A19700C10FDB /* Yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
