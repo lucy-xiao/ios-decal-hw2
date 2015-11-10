@@ -44,8 +44,6 @@ class KeyboardViewController: UIInputViewController {
         keyboardView = keyboardNib.instantiateWithOwner(self, options: nil)[0] as! UIView
         keyboardView.frame = view.frame
         view.addSubview(keyboardView)
-        //view.backgroundColor = keyboardView.backgroundColor
-        //view.backgroundColor = UIColor(red: (194/255.0), green: (232/255.0), blue: (235/255.0), alpha: 1.0)
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
 
     }
